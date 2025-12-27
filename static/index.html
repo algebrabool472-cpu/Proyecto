@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador de Álgebra de Boole</title>
+    <link rel="icon" href="/static/logo3.png" type="image/png">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__overlay"></div>
+        <div class="header__item-container">
+            <img src="/static/algebra.jpg" class="header__img" alt="álgebra">
+            <h1>CODIFICADOR DE ÁLGEBRA DE BOOLE 2026</h1>
+            <strong>Bienvenidos al sitio para codificar y decodificar mensajes usando álgebra de Boole.</strong>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="nav__ul-container">
+            <ul class="nav__ul">
+                <li class="nav__item"><a href="#" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="/static/contactenos.html" class="nav__link">Contactenos</a></li>
+                <li class="nav__item"><a href="/static/login.html" class="nav__link link--login">Registrase</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Codifica y decodifica tus mensajes</h2>
+    </main>
+
+    <section class="procesador">
+        <h3>Procesador Boole</h3>
+
+        <label for="mensaje">Ingresa tu mensaje:</label>
+        <textarea id="mensaje" rows="4" placeholder="Escribe tu texto o binario aquí..."></textarea>
+
+        <label for="clave">Clave XOR (opcional, 8 bits):</label>
+        <input type="text" id="clave" placeholder="Ej. 10101010">
+
+        <div class="botones">
+            <button onclick="codificar()">Codificar a Binario</button>
+            <button onclick="decodificar()">Decodificar Binario</button>
+            <button onclick="ascii()">Codificar a ASCII</button>
+            <button onclick="asciiTexto()">Decodificar ASCII</button>
+            <button onclick="xor()">Aplicar XOR</button>
+        </div>
+
+        <div id="resultado" class="resultado"></div>
+    </section>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

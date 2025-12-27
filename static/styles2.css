@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("/static/congresos-medicos-ficha.webp");
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background: rgba(3, 0, 8, 0.6);
+    padding: 20px 0;
+    box-shadow: 0 0 55px 0 #0009;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.form-input{
+    padding: 6px 20px;
+    color: #fff;
+}
+
+    h2{
+        font-family: sans-serif;
+        text-align: center;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 22px;
+        padding: 10px;
+        font-size: 1.6em;
+        color: #eee;
+    }
+
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border: 1px solid #fff;
+box-shadow: 0 0 15px 0 #fff;
+background: transparent;
+border: radius 10px; ;
+color: #000;
+margin-top: 4px;
+}
+
+textarea{
+    min-width: 100%;
+    resize: none;
+    min-height: 100px;
+    max-height: 200px;
+    font-family: sans-serif;
+}
+
+label{
+    font-size: 0.88em;
+    margin-bottom: 4px;
+    line-height: 2;
+    font-family: sans-serif;
+}
+.checkbox{
+width: auto;
+height: 10px;
+}
+
+input[type="submit"]
+{
+    color: #fff;
+}
+/* Estilo base para el div de resultado */
+#resultado,
+.resultado {
+    font-size: 1.1rem;
+    padding: 16px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0003;
+    width: 100%;
+    max-width: 100%;
+    min-height: 80px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 600px) {
+    #resultado,
+    .resultado {
+        font-size: 1rem;
+        padding: 14px;
+        min-height: 100px;
+        margin-top: 15px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    #resultado,
+    .resultado {
+        font-size: 1.1rem;
+        padding: 16px;
+        min-height: 120px;
+        margin-top: 20px;
+    }
+}
