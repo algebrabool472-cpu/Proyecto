@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
-    background-color: #04e;
+    background-color: #48e;
     color: #fff;
 }
 body, header, div, ul{
@@ -86,7 +86,7 @@ h1{
     flex-grow: 1;
     }
 .nav__link{
-    color:#5f5c5c;
+    color:#48e;
     text-decoration: none;
     display: inline-block;
     padding: 6px 10px;
@@ -110,7 +110,7 @@ h1{
 }
 
 .link--login{
-    background-color:#5f5c5c; 
+    background-color:#48e; 
     color: #fff;
     border-radius: 20px;
     padding: 8px 24px;
@@ -156,13 +156,13 @@ main{
     font-size: 1rem;
     border: none;
     border-radius: 8px;
-    background-color: #04e;
+    background-color: #48e;
     color: #fff;
     cursor: pointer;
 }
 
 .botones button:hover {
-    background-color: #036;
+    background-color: #48e;
 }
 
 .resultado {
