@@ -13,7 +13,7 @@ body {
 form{
     background: rgba(3, 0, 8, 0.6);
     padding: 20px 0;
-    box-shadow: 0 0 55px 0 #0009;
+    box-shadow: 0 0 55px 0 #0009; 
     max-width: 500px;
     margin: auto;
     margin-top: 50px;
