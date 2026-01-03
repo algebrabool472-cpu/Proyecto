@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Envio de mensajes</title>
     <link rel="icon" href="/static/logo3.png" type="image/png">
     <link rel="stylesheet" href="styles2.css">
-    <link rel="stylesheet" href="validacion.js">
+    <script src="validacion.js" defer></script>
 </head>
 <body>
-    <form>
+    <form action="https://formspree.io/f/mykznegn" method="POST" class="formulario"> 
         <h2>Deje su mensaje</h2>
+
         <div class="form-input">
             <label for="Nombre">Nombre completo</label>
-            <input type="text" placeholder="James Wilson" id="Nombre" required >
+            <input type="text" id="Nombre" name="Nombre" placeholder="James Wilson" required>
         </div>
+
         <div class="form-input">
             <label for="email">Email</label>
-            <input type="email" placeholder="ejemplo@gmail.com" id="email"  required>
+            <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
         </div>
+
         <div class="form-input">
             <label for="mensajes">Mensaje</label>
-            <textarea rows="10" placeholder="deja tu mensajes..." id="mensajes"></textarea>
-            <div class="form-input">
+            <textarea id="mensajes" name="mensajes" rows="10" placeholder="Deja tu mensaje..." required></textarea>
         </div>
-            <input type="submit" value="Enviar">
-        </div>
-    </form>
+
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
