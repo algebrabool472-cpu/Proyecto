@@ -8,25 +8,28 @@
     <script src="validacion.js" defer></script>
 </head>
 <body>
-    <form action="https://formspree.io/f/mykznegn" method="POST" class="formulario"> 
-        <h2>Deje su mensaje</h2>
+    <form id="contactForm" class="formulario">
+    <h2>Deje su mensaje</h2>
 
-        <div class="form-input">
-            <label for="Nombre">Nombre completo</label>
-            <input type="text" id="Nombre" name="Nombre" placeholder="James Wilson" required>
-        </div>
+    <div class="form-input">
+    <label for="Nombre">Nombre completo</label>
+    <input type="text" id="Nombre" name="Nombre" placeholder="James Wilson" required>
+    </div>
 
-        <div class="form-input">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
-        </div>
+    <div class="form-input">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+    </div>
 
-        <div class="form-input">
-            <label for="mensajes">Mensaje</label>
-            <textarea id="mensajes" name="mensajes" rows="10" placeholder="Deja tu mensaje..." required></textarea>
-        </div>
+    <div class="form-input">
+    <label for="mensajes">Mensaje</label>
+    <textarea id="mensajes" name="mensajes" rows="10" placeholder="Deja tu mensaje..." required></textarea>
+    </div>
 
-        <input type="submit" value="Enviar">
-    </form>
+    <input type="submit" value="Enviar">
+    <p id="status"></p>
+</form>
+
+<script src="validacion.js" defer></script>
 </body>
 </html>

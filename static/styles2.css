@@ -17,12 +17,14 @@ form{
     max-width: 500px;
     margin: auto;
     margin-top: 50px;
-    font-size: 16px;
+    font-size: 16px;;
 }
 
 .form-input{
     padding: 6px 20px;
     color: #fff;
+    text-decoration-color: #eee;
+    ;
 }
 
     h2{
@@ -46,7 +48,7 @@ input, textarea{
 box-shadow: 0 0 15px 0 #fff;
 background: transparent;
 border: radius 10px; ;
-color: #000;
+color: #fff;
 margin-top: 4px;
 }
 
@@ -73,7 +75,11 @@ input[type="submit"]
 {
     color: #fff;
 }
-/* Estilo base para el div de resultado */
+#status {
+    color: white;
+    font-weight: bold; 
+}
+
 #resultado,
 .resultado {
     font-size: 1.1rem;
